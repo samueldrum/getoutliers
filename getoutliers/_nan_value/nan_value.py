@@ -1,6 +1,6 @@
 
 
-from getoutliers._iqr import IQR
+from getoutliers.detecting._iqr import IQR
 import numpy as np
 
 
