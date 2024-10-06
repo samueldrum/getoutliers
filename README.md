@@ -19,7 +19,8 @@ pip install getoutliers
 ```python
 from getoutliers.detecting import IQR, IqrMultiD, ZScore
 from getoutliers.manipulating import ManiOut1D, ManiOut2D
-from getoutliers.api import active_pandas, is_pandas_active
+from getoutliers.api.pandas import active_pandas, is_pandas_active
+from getoutliers.api.warnings import deactive_warns
 import pandas as pd
 ```
 
@@ -120,4 +121,3 @@ This project is licensed under the MIT License.
 
 `getoutliers` was created by Samuel.
 
-GitHub: [getoutliers](https://github.com/BidjorySamuel/getoutliers)
