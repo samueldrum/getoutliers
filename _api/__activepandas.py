@@ -7,6 +7,7 @@ _dataframe = False
 def active_pandas(dataframe):
     """
     Active pandas, Where the dataframe gonna be modificated immediately
+    active only for manipulation
     
     """
     global _active_pandas, _dataframe

@@ -17,7 +17,9 @@ pip install getoutliers
 ### Importing the Module
 
 ```python
-from getoutliers import IqrMultiD, IQR, ManiOut2D, ManiOut1D, ZScore
+from getoutliers.detecting import IQR, IqrMultiD, ZScore
+from getoutliers.manipulating import ManiOut1D, ManiOut2D
+from getoutliers.api import active_pandas, is_pandas_active
 import pandas as pd
 ```
 
@@ -91,7 +93,8 @@ The `ViewOutliers` class visualizes outliers in a pandas DataFrame.
 
 ```python
 import numpy as np
-from getoutliers import ManiOut2D, IqrMultiD
+from getoutliers.detecting impor IqrMultiD
+from getoutliers.manipulating import ManiOut2D
 
 dados = {
     "nome": ["Sam", "Dudu", "Pedro", "John", "Don", "Ben"],
